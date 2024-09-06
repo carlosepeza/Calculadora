@@ -6,7 +6,7 @@ public class CalculadoraTest {
 
 	public static void main(String[] args) {
 		Calculadora miMaizoro = new Calculadora();
-		int resultado = miMaizoro.sumar(100, 150);
+		int resultado = (int) miMaizoro.sumar(100, 150);
 		
 		System.out.println("Resultado suma = " + resultado);
 	}
