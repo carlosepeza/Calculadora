@@ -11,6 +11,8 @@ public class CalculadoraTest {
 		System.out.println("Resultado suma = " + resultado);
 		
 		System.out.println("Resultado resta = " + miMaizoro.restar(100, 150));
+		
+		System.out.println("Resultado multiplicar = " + miMaizoro.multiplicar(100, 150));
 	}
 
 }

@@ -11,4 +11,9 @@ public class Calculadora {
 		int resta = x - y;
 		return resta;
 	}
+	
+	public int multiplicar(int x, int y) {
+		int producto = x * y;
+		return producto;
+	}
 }
