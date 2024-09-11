@@ -11,9 +11,15 @@ public class Calculadora {
 		int resta = x - y;
 		return resta;
 	}
-	
+
 	public int multiplicar(int x, int y) {
 		int producto = x * y;
 		return producto;
+	}
+
+	public <T extends Number> double dividir( T x, T y) {
+		double division = x.doubleValue() / y.doubleValue();
+		return division;
+
 	}
 }
